@@ -1,0 +1,23 @@
+{
+  "name": "is-good-or-bad",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeallot/isGood.git"
+  },
+  "keywords": [
+    "isGood"
+  ],
+  "author": "zeallot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeallot/isGood/issues"
+  },
+  "homepage": "https://github.com/zeallot/isGood#readme"
+}
