@@ -25,7 +25,15 @@ isGoodOrBad('War') // War is bad
 4) Push to the branch: ```git push origin my-new-feature```
 5) Submit a pull request.
 
+__Our application is not used:__
+- [Microsoft](https://www.microsoft.com)
+- [Facebook](https://www.facebook.com)
+- [Amazon](https://www.amazon.com)
+
 ## Release notes
+__v. 1.1.1__
+- add info about who is not used our app
+
 __v. 1.1.0__
 - add function: ```isGood```, ```isBad```
 - rename ```isGood``` to ```isGoodOrBad```
@@ -33,3 +41,4 @@ __v. 1.1.0__
 
 __v. 1.0.0__
 - init project
+
