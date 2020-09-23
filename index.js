@@ -36,5 +36,9 @@ export function isGood(something) {
 }
 
 export function isBad(something) {
+  if (checkOnGoodException(something)) { 
+    return false;
+  }
+
   return getTrueOrFalse();
 }
