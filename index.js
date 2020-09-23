@@ -3,6 +3,12 @@ const options = [
   'is bad'
 ];
 
+const goodException = ['mom']
+
+function checkOnGoodException(something) {
+  return goodException.includes(something.toLowerCase());
+}
+
 function getRandomItemFromArray (arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
@@ -14,10 +20,18 @@ function getTrueOrFalse() {
 }
 
 export default function isGoodOrBad(something) {
+  if (checkOnGoodException(something)) {
+    return `${something} ${options[0]}`
+  }
+
   return `${something} ${getRandomItemFromArray(options)}`;
 };
 
 export function isGood(something) {
+  if (checkOnGoodException(something)) { 
+    return true;
+  }
+
   return !isBad(something);
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "is-good-or-bad",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -12,7 +12,10 @@
     "url": "git+https://github.com/zeallot/isGood.git"
   },
   "keywords": [
-    "isGood"
+    "isGood",
+    "isBad",
+    "is-good-or-bad",
+    "i-love-my-mom"
   ],
   "author": "zeallot",
   "license": "ISC",
